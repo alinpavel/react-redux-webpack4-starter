@@ -36,4 +36,3 @@ const withReducer = injectReducer({ key: 'home', reducer });
 const withSaga = injectSaga({ key: 'home', saga });
 
 export default compose(withReducer, withSaga, withConnect)(HomePage);
-export { mapDispatchToProps };
