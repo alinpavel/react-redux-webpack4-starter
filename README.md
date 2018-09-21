@@ -12,7 +12,7 @@
 This project has been built using:
 
 - _React.js_ - **React 16**, React Router 5
-- _Redux.js_ - Redux saga and Reselect
+- _Redux.js_ - with selectors from Reselect
 - _Babel_ - ES6, ESNext, Airbnb and React/Recommended config
 - _Webpack_ - **Webpack 4**, Hot Reloading, Code Splitting, Optimized Prod Build and more
 - _Test_ - Jest with Enzyme

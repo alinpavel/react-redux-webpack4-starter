@@ -1,1 +1,1 @@
-export const CHANGE_USERNAME = 'boilerplate/Home/CHANGE_USERNAME';
+export const POST_COMPANY_ONBOARDING = 'POST_COMPANY_ONBOARDING';

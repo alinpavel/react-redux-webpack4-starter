@@ -1,8 +1,8 @@
-import { CHANGE_USERNAME } from './constants';
+import { POST_COMPANY_ONBOARDING } from './constants';
 
-export function changeUsername(name) {
+export function postCompanyOnboarding(value) {
   return {
-    type: CHANGE_USERNAME,
-    name
+    type: POST_COMPANY_ONBOARDING,
+    value
   };
 }

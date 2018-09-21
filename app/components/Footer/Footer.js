@@ -3,8 +3,8 @@ import './style.scss';
 
 const Footer = () => (
   <footer>
-    <section>Super uber footer</section>
-    <section>Made with <span role="img" aria-label="heart-emoji">❤️</span> by <a href="">Iziwork</a></section>
+    <section>You like me? I`m a footer</section>
+    <section>Ohh, yay! I`m super on the right side of the footer!:D</section>
   </footer>
 );
 

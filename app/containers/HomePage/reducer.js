@@ -1,20 +1,18 @@
-import { CHANGE_USERNAME } from './constants';
+import { POST_COMPANY_ONBOARDING } from './constants';
 // The initial state of the App
 const initialState = {
-  username: ''
+  value: ''
 };
 
-function homeReducer(state = initialState, action) {
+function changeValueReducer(state = initialState, action) {
   switch (action.type) {
-    case CHANGE_USERNAME:
-      // Delete prefixed '@' from the github username
+    case POST_COMPANY_ONBOARDING:
       return {
-        ...state,
-        username: action.name.replace(/@/gi, '')
+        value: action.value
       };
     default:
       return state;
   }
 }
 
-export default homeReducer;
+export default changeValueReducer;
